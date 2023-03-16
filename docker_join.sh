@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-docker exec -it ros bash 
+docker exec -it ncrl_mqtt bash 
