@@ -2,3 +2,6 @@ build/
 devel/
 .vscode/
 *.yaml
+.vscode
+.catkin_workspace
+
