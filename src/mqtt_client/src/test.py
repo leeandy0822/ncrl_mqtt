@@ -7,7 +7,7 @@ def talker():
     rospy.init_node('talker', anonymous=True)
     rate = rospy.Rate(10) # 10hz
     while not rospy.is_shutdown():
-        msg = [0, 333, 3, 3, 6, 7, 4, 3, 3, 2]
+        msg = [0.5, -333.25, 3.001, 3.55, 6.9965454, -721212.56, -4.2, 3.55, 3.45, 2.9898]
         float_msg = Float32MultiArray(data = msg)
 
         rospy.loginfo(float_msg)
